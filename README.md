@@ -1,2 +1,3 @@
 # USER-MANAGMENT
-**Live Demo:** [Link](https://user-managment-1-x3cf.onrender.com)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=render)](https://user-managment-1-x3cf.onrender.com)
+
