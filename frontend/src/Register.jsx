@@ -26,7 +26,7 @@ function Register() {
     };
 
     try {
-      const response = await fetch("https://user-managment-backend-twvv.onrender.com/register", {
+      const response = await fetch("https://user-managment-ch0d.onrender.com/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
