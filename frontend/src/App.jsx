@@ -36,7 +36,7 @@ function App() {
     console.log("Attempting to delete user with ID:", user.id); // Log the userId
 
     try {
-      const response = await fetch(`http://127.0.0.1:5000/delete/${user.id}`, {
+      const response = await fetch(`https://user-managment-ch0d.onrender.com/delete/${user.id}`, {
         method: "DELETE",
       });
       if (response.ok) {
