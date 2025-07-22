@@ -18,7 +18,7 @@ function Login({ handleLogin }) {
 
     try {
       // Make a POST request to the Flask login endpoint
-      const response = await fetch("https://user-managment-backend-twvv.onrender.com/login", {
+      const response = await fetch("https://user-managment-ch0d.onrender.com/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
