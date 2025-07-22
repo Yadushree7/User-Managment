@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.log,
+.Reg {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(53, 53, 53);
+  width: 400px;
+  height: 400px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.usr_name,
+.pass_word,
+.usr-name,
+.mail,
+.pass-word {
+  padding: 10px;
+  margin: 10px 50px;
+}
+.sub-but,
+.sub_but {
+  margin: 30px 150px;
+  width: 100px;
+}
+
+.mail {
+  width: 170px;
+  height: 14px;
+}
+
+.logout,
+.delete {
+  margin: 10px;
+}
+
+.mail{
+  margin-left: 80px;
+}
+.pass-word{
+  margin-left:55px;
+}
+.pass_word{
+  margin-left: 55px;
+}
+.sub_but{
+  width:110px;
+}

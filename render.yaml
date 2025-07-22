@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: login-backend
+    env: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: DATABASE_URL
+        value: sqlite:///logins.db
